@@ -1,0 +1,23 @@
+# Entorno virtual de Python
+venv/
+.venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Base de datos y CSVs generados (se recrean con los scripts, no hace falta versionarlos)
+data/*.db
+data/*.csv
+
+# Power BI: el .pbix puede ser pesado; si preferís no subirlo, descomentá la línea de abajo
+# *.pbix
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos / editores
+.vscode/
+.idea/
